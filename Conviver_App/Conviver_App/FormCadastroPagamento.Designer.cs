@@ -53,6 +53,7 @@
             this.btnGerenciarClientes.TabIndex = 32;
             this.btnGerenciarClientes.Text = "Gerenciar clientes";
             this.btnGerenciarClientes.UseVisualStyleBackColor = true;
+            this.btnGerenciarClientes.Click += new System.EventHandler(this.btnGerenciarClientes_Click);
             // 
             // btnCadastroCuidador
             // 
@@ -62,6 +63,7 @@
             this.btnCadastroCuidador.TabIndex = 27;
             this.btnCadastroCuidador.Text = "Gerenciar cuidadores";
             this.btnCadastroCuidador.UseVisualStyleBackColor = true;
+            this.btnCadastroCuidador.Click += new System.EventHandler(this.btnCadastroCuidador_Click);
             // 
             // dgvPagamentos
             // 
@@ -80,6 +82,7 @@
             this.dgvPagamentos.TabIndex = 25;
             this.dgvPagamentos.DataSourceChanged += new System.EventHandler(this.dgvPagamentos_DataSourceChanged);
             this.dgvPagamentos.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvPagamentos_CellClick);
+            this.dgvPagamentos.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvPagamentos_CellContentClick);
             // 
             // btnBuscarDados
             // 

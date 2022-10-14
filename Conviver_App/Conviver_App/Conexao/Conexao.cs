@@ -6,6 +6,7 @@ using System.Data.Common;
 using System.Data.OleDb;
 using System.Data.SqlClient;
 using System.Drawing;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -141,19 +142,21 @@ namespace Conviver_App.Conexao
             }
             return da;
         }
-        public void Atualiza_Status_Pagamento(  int id
+        public void Atualiza_Pagamento_Paciente(  int id
                                                 , string novo_status_pagamento
-                                                , string novo_forma_pagamento)
+                                                , string novo_forma_pagamento
+                                                , DateTime nova_data_pagamento)
         {
             try
             {
                 using (SqlConnection conn = new SqlConnection(PegarConexao()))
                 {
-                    SqlCommand Atualiza_Status = new SqlCommand("ATUALIZAR_STATUS_PAGAMENTO", conn);
+                    SqlCommand Atualiza_Status = new SqlCommand("ATUALIZAR_PAGAMENTO_PACIENTE", conn);
                     Atualiza_Status.CommandType = CommandType.StoredProcedure;
                     Atualiza_Status.Parameters.Add("@ID", SqlDbType.Int).Value = id;
                     Atualiza_Status.Parameters.Add("@STATUS_NOVO", SqlDbType.NVarChar, 100).Value = novo_status_pagamento;
                     Atualiza_Status.Parameters.Add("@FORMA_PAGAMENTO_NOVO", SqlDbType.NVarChar, 100).Value = novo_forma_pagamento;
+                    Atualiza_Status.Parameters.Add("@DATA_PAGAMENTO_NOVO", SqlDbType.Date).Value = nova_data_pagamento;
                     conn.Open();
                     Atualiza_Status.ExecuteNonQuery();
                 }
