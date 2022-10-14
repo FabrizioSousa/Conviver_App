@@ -1,0 +1,13 @@
+Z:\Estudo\Conviver App\Conviver_App\Conviver_App\bin\Debug\Conviver_App.exe.config
+Z:\Estudo\Conviver App\Conviver_App\Conviver_App\bin\Debug\Conviver_App.exe
+Z:\Estudo\Conviver App\Conviver_App\Conviver_App\bin\Debug\Conviver_App.pdb
+Z:\Estudo\Conviver App\Conviver_App\Conviver_App\obj\Debug\Conviver_App.csproj.AssemblyReference.cache
+Z:\Estudo\Conviver App\Conviver_App\Conviver_App\obj\Debug\Conviver_App.csproj.SuggestedBindingRedirects.cache
+Z:\Estudo\Conviver App\Conviver_App\Conviver_App\obj\Debug\Conviver_App.Properties.Resources.resources
+Z:\Estudo\Conviver App\Conviver_App\Conviver_App\obj\Debug\Conviver_App.csproj.GenerateResource.cache
+Z:\Estudo\Conviver App\Conviver_App\Conviver_App\obj\Debug\Conviver_App.csproj.CoreCompileInputs.cache
+Z:\Estudo\Conviver App\Conviver_App\Conviver_App\obj\Debug\Conviver_App.exe
+Z:\Estudo\Conviver App\Conviver_App\Conviver_App\obj\Debug\Conviver_App.pdb
+Z:\Estudo\Conviver App\Conviver_App\Conviver_App\obj\Debug\Conviver_App.FormCadastroCuidador.resources
+Z:\Estudo\Conviver App\Conviver_App\Conviver_App\obj\Debug\Conviver_App.FormCadastroPagamento.resources
+Z:\Estudo\Conviver App\Conviver_App\Conviver_App\obj\Debug\Conviver_App.FormCadastroPacientes.resources
